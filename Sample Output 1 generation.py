@@ -2,7 +2,7 @@ import time
 import mammoth
 import os
 z = os.getcwd()
-f = open(z+'\\SampleDocuments\\SampleInputDoc2-.docx','rb')
+f = open(z+'\\SampleInputDoc2-.docx','rb')
 b = open('x.html','wb')
 document = mammoth.convert_to_html(f)
 b.write(document.value.encode('utf8'))
