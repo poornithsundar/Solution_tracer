@@ -1,4 +1,4 @@
-Solution_tracer
+Solution_tracer "\n"
 
 Firstly open Sample Output Generation.py,
 
