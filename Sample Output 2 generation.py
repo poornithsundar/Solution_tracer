@@ -3,7 +3,7 @@ import os
 import re
 import time
 z = os.getcwd()
-f = open(z+'\\SampleDocuments\\SampleInputDoc3-Hardware Problems.docx','rb')
+f = open(z+'\\SampleInputDoc3-Hardware Problems.docx','rb')
 b = open('xy.html','wb')
 document = mammoth.convert_to_html(f)
 b.write(document.value.encode('utf8'))
