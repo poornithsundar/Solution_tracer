@@ -83,7 +83,7 @@ numberChosen= ttk.Combobox(win, width=50)
 y = Text(win, height=10, width=100)
 import os
 z = os.getcwd()
-text = docx2txt.process(z+"\\SampleDocuments\\SampleInputDoc1-FAQs.docx")
+text = docx2txt.process(z+"\\SampleInputDoc1-FAQs.docx")
 blob = TextBlob(text)
 tokenizer = BlanklineTokenizer()
 z = blob.tokenize(tokenizer)
